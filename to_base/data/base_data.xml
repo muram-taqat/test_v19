@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <function name="_set_default_report_print_delay" model="to.base" />
+    </data>
+</odoo>

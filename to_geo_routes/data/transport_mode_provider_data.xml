@@ -1,0 +1,54 @@
+<odoo>
+    <data noupdate="1">
+        <!-- Manual -->
+        <record id="manual_input_driving" model="transport.mode.provider">
+            <field name="provider">manual</field>
+            <field name="transport_mode">driving</field>
+            <field name="provider_specific_key">driving</field>
+            <field name="sequence">260</field>
+            <field name="ave_speed">60</field>
+        </record>
+        <record id="manual_input_cycling" model="transport.mode.provider">
+            <field name="provider">manual</field>
+            <field name="transport_mode">cycling</field>
+            <field name="provider_specific_key">cycling</field>
+            <field name="sequence">280</field>
+            <field name="ave_speed">14.8</field>
+        </record>
+        <record id="manual_input_truck" model="transport.mode.provider">
+            <field name="provider">manual</field>
+            <field name="transport_mode">truck</field>
+            <field name="provider_specific_key">truck</field>
+            <field name="sequence">290</field>
+            <field name="ave_speed">50</field>
+        </record>
+        <record id="manual_input_transit" model="transport.mode.provider">
+            <field name="provider">manual</field>
+            <field name="transport_mode">transit</field>
+            <field name="provider_specific_key">transit</field>
+            <field name="sequence">300</field>
+            <field name="ave_speed">55</field>
+        </record>
+        <record id="manual_input_water" model="transport.mode.provider">
+            <field name="provider">manual</field>
+            <field name="transport_mode">water</field>
+            <field name="provider_specific_key">water</field>
+            <field name="sequence">310</field>
+            <field name="ave_speed">25</field>
+        </record>
+        <record id="manual_input_air" model="transport.mode.provider">
+            <field name="provider">manual</field>
+            <field name="transport_mode">air</field>
+            <field name="provider_specific_key">air</field>
+            <field name="sequence">320</field>
+            <field name="ave_speed">800</field>
+        </record>
+        <record id="manual_input_rail" model="transport.mode.provider">
+            <field name="provider">manual</field>
+            <field name="transport_mode">rail</field>
+            <field name="provider_specific_key">rail</field>
+            <field name="sequence">330</field>
+            <field name="ave_speed">90</field>
+        </record>
+    </data>
+</odoo>

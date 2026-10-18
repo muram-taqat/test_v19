@@ -1,0 +1,303 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* to_base
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-07 02:06+0000\n"
+"PO-Revision-Date: 2026-09-07 02:06+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: to_base
+#: model:ir.model,name:to_base.model_base
+msgid "Base"
+msgstr ""
+
+#. module: to_base
+#. odoo-python
+#: code:addons/to_base/models/base.py:0
+msgid "Cannot derive code from empty/invalid text."
+msgstr ""
+
+#. module: to_base
+#. odoo-python
+#: code:addons/to_base/models/to_base.py:0
+msgid "Cannot get the size of a file or folder"
+msgstr ""
+
+#. module: to_base
+#: model:ir.model,name:to_base.model_res_company
+msgid "Companies"
+msgstr ""
+
+#. module: to_base
+#: model:ir.model,name:to_base.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: to_base
+#: model:ir.model.fields,field_description:to_base.field_base_language_install__display_name
+#: model:ir.model.fields,field_description:to_base.field_ir_module_module__display_name
+#: model:ir.model.fields,field_description:to_base.field_ir_rule__display_name
+#: model:ir.model.fields,field_description:to_base.field_mail_thread__display_name
+#: model:ir.model.fields,field_description:to_base.field_res_company__display_name
+#: model:ir.model.fields,field_description:to_base.field_res_partner__display_name
+#: model:ir.model.fields,field_description:to_base.field_to_base__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: to_base
+#: model:res.partner.category,name:to_base.res_partner_category_erp_vendor
+msgid "ERP Vendor"
+msgstr ""
+
+#. module: to_base
+#: model:ir.model,name:to_base.model_mail_thread
+msgid "Email Thread"
+msgstr ""
+
+#. module: to_base
+#: model:ir.model.fields,field_description:to_base.field_res_company__font
+msgid "Font"
+msgstr ""
+
+#. module: to_base
+#. odoo-python
+#: code:addons/to_base/models/to_base.py:0
+msgid "For the hour period, the given date should be in datetime"
+msgstr ""
+
+#. module: to_base
+#: model:ir.model.fields,field_description:to_base.field_base_language_install__id
+#: model:ir.model.fields,field_description:to_base.field_ir_module_module__id
+#: model:ir.model.fields,field_description:to_base.field_ir_rule__id
+#: model:ir.model.fields,field_description:to_base.field_mail_thread__id
+#: model:ir.model.fields,field_description:to_base.field_res_company__id
+#: model:ir.model.fields,field_description:to_base.field_res_partner__id
+#: model:ir.model.fields,field_description:to_base.field_to_base__id
+msgid "ID"
+msgstr ""
+
+#. module: to_base
+#: model:ir.model,name:to_base.model_base_language_install
+msgid "Install Language"
+msgstr ""
+
+#. module: to_base
+#. odoo-python
+#: code:addons/to_base/models/base.py:0
+msgid ""
+"Invalid `custom_order_position` value: %s. Must be 'before', 'after', or "
+"'replace'."
+msgstr ""
+
+#. module: to_base
+#. odoo-python
+#: code:addons/to_base/models/to_base.py:0
+msgid "Invalid input base number for EAN13 code"
+msgstr ""
+
+#. module: to_base
+#. odoo-python
+#: code:addons/to_base/models/to_base.py:0
+msgid "Invalid year '%s'"
+msgstr ""
+
+#. module: to_base
+#. odoo-python
+#: code:addons/to_base/models/to_base.py:0
+msgid ""
+"Local time zone is not defined. You may need to set a time zone in your "
+"user's Preferences."
+msgstr ""
+
+#. module: to_base
+#: model:ir.model,name:to_base.model_ir_module_module
+msgid "Module"
+msgstr ""
+
+#. module: to_base
+#. odoo-python
+#: code:addons/to_base/models/base.py:0
+msgid "Normalized XML ID value is empty."
+msgstr ""
+
+#. module: to_base
+#. odoo-python
+#: code:addons/to_base/models/to_base.py:0
+msgid "Number of terms must be greater than zero (0)"
+msgstr ""
+
+#. module: to_base
+#. odoo-python
+#: code:addons/to_base/helper/multi_threading.py:0
+msgid ""
+"Progamming Error! The field `%(field)s` is not a Many2one field of the model"
+" %(obj_name)s's"
+msgstr ""
+
+#. module: to_base
+#. odoo-python
+#: code:addons/to_base/helper/multi_threading.py:0
+msgid ""
+"Progamming Error! The field `%(field)s` is not a field of the model "
+"%(obj_name)s's"
+msgstr ""
+
+#. module: to_base
+#: model:ir.model,name:to_base.model_ir_rule
+msgid "Record Rule"
+msgstr ""
+
+#. module: to_base
+#: model:ir.model,name:to_base.model_to_base
+msgid "TVTMA Base Model"
+msgstr ""
+
+#. module: to_base
+#. odoo-python
+#: code:addons/to_base/models/to_base.py:0
+msgid ""
+"The `start_day_offset` passed to the method `period_iter` must be greater "
+"than or equal to zero!"
+msgstr ""
+
+#. module: to_base
+#. odoo-python
+#: code:addons/to_base/models/to_base.py:0
+msgid "The given dt_from must be either date or datetime."
+msgstr ""
+
+#. module: to_base
+#. odoo-python
+#: code:addons/to_base/models/to_base.py:0
+msgid ""
+"The given dt_start and dt_end passed into the method "
+"`period_iter(period_name, dt_start, dt_end, start_day_offset)` must be in "
+"the same type. This could be a programming error..."
+msgstr ""
+
+#. module: to_base
+#. odoo-python
+#: code:addons/to_base/models/to_base.py:0
+msgid "The given dt_to must be either date or datetime."
+msgstr ""
+
+#. module: to_base
+#. odoo-python
+#: code:addons/to_base/models/to_base.py:0
+msgid ""
+"The given period_start_date must be either date or datetime type. This could"
+" be programming error..."
+msgstr ""
+
+#. module: to_base
+#. odoo-python
+#: code:addons/to_base/models/to_base.py:0
+msgid ""
+"The method `calculate_weights` only accepts item weights in either float or "
+"integer."
+msgstr ""
+
+#. module: to_base
+#. odoo-python
+#: code:addons/to_base/models/to_base.py:0
+msgid ""
+"The method get_weekdays_for_period(dt_from, dt_to) does not support the "
+"periods having more than 7 days"
+msgstr ""
+
+#. module: to_base
+#. odoo-python
+#: code:addons/to_base/models/base.py:0
+msgid "The model `%(name)s` has no field named `%(field_name)s`"
+msgstr ""
+
+#. module: to_base
+#: model:ir.model.fields.selection,name:to_base.selection__res_company__font__times_new_roman
+msgid "Times New Roman"
+msgstr ""
+
+#. module: to_base
+#: model:res.partner.category,name:to_base.res_partner_category_viindoo_consulting
+msgid "Viindoo Consulting Services"
+msgstr ""
+
+#. module: to_base
+#. odoo-python
+#: code:addons/to_base/models/to_base.py:0
+msgid ""
+"Wrong value passed to the argument `weekday` of the method `next_weekday`. "
+"The value for `weekday` must be >= 0 and <= 6"
+msgstr ""
+
+#. module: to_base
+#. odoo-python
+#: code:addons/to_base/models/to_base.py:0
+msgid ""
+"Wrong value passed to the argument representing the period. The value for "
+"`period_name` should be either 'hourly' or 'daily' or 'weekly' or 'monthly' "
+"or 'quarterly' or 'biannually' or 'annually'"
+msgstr ""
+
+#. module: to_base
+#. odoo-python
+#: code:addons/to_base/models/mail_thread.py:0
+msgid ""
+"You are only allowed to send messages or log notes if you don't mention "
+"anyone since you don't have access right to add followers to this document."
+msgstr ""
+
+#. module: to_base
+#. odoo-python
+#: code:addons/to_base/models/mail_thread.py:0
+msgid ""
+"You may not be able to add followers. Here is the reason:\n"
+"%s"
+msgstr ""
+
+#. module: to_base
+#. odoo-python
+#: code:addons/to_base/models/base.py:0
+msgid "`%s` was not in the given vals to create xml_id!"
+msgstr ""
+
+#. module: to_base
+#. odoo-python
+#: code:addons/to_base/models/base.py:0
+msgid "`company_id` was not in the given vals to create xml_id!"
+msgstr ""
+
+#. module: to_base
+#. odoo-python
+#: code:addons/to_base/helper/multi_threading.py:0
+msgid ""
+"db_connection_percentage should be greater than or equal to 0 and less than "
+"or equal to 80"
+msgstr ""
+
+#. module: to_base
+#. odoo-python
+#: code:addons/to_base/tests/test_currency_rate_constrains.py:0
+msgid "expected errors as validation error"
+msgstr ""
+
+#. module: to_base
+#. odoo-python
+#: code:addons/to_base/helper/multi_threading.py:0
+msgid "max_threads_per_threaded must be an integer."
+msgstr ""
+
+#. module: to_base
+#. odoo-python
+#: code:addons/to_base/models/to_base.py:0
+msgid "the method guess_lang has not been implemented yet"
+msgstr ""
+
